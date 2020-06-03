@@ -16,14 +16,14 @@ export default class SectionHero extends React.Component {
                     <img src={safePrefix(_.get(section, 'image'))} alt={_.get(section, 'title')} />
                   </div>
                   }
-                  {markdownify(_.get(section, 'content'))}
+                  
 
                   <div className="cell block-content">
                     {_.get(section, 'title') && 
                     <h2 className="block-title underline">{_.get(section, 'title')}</h2>
                     }
                     <div className="block-copy">
-                      
+                      {markdownify(_.get(section, 'content'))}
                     </div>
                     {_.get(section, 'actions') && 
                     <p className="block-buttons">
