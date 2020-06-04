@@ -7,7 +7,7 @@ export default class SectionFaq extends React.Component {
     render() {
         let section = _.get(this.props, 'section');
         return (
-            <section id={_.get(section, 'section_id')} className={'block faq-block bg-' + _.get(section, 'background') + ' outer'}>
+            <section id={_.get(section, 'section_id')} name={_.get(section, 'section_id')} className={'block faq-block bg-' + _.get(section, 'background') + ' outer'}>
               <div className="inner-small">
                 <div className="block-header">
                   {_.get(section, 'title') && 
