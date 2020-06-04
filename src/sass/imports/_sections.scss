@@ -541,6 +541,13 @@
     }
   }
 
+  &.bg-purple {
+    background: _palette(accent);
+    background: -webkit-linear-gradient(left,_palette(accent), _palette(accent-alt));
+    background: linear-gradient(to right,_palette(accent), _palette(accent-alt));
+    color: #fff;
+  }
+
   &.bg-accent {
     background: _palette(accent);
     background: -webkit-linear-gradient(left,_palette(accent), _palette(accent-alt));
