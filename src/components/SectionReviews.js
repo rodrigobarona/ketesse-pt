@@ -24,11 +24,11 @@ export default class SectionReviews extends React.Component {
                   {_.map(_.get(section, 'reviews'), (review, review_idx) => (
                   <blockquote key={review_idx} className="cell review">
                     <div className="review-inside">
-                      <p className="review-text">{htmlToReact(_.get(review, 'content'))}</p>
-                      <footer className="review-footer">
-                        {_.get(review, 'avatar') && 
+                      <!-- p className="review-text">{htmlToReact(_.get(review, 'content'))}</p -->
+                      {_.get(review, 'avatar') && 
                         <img className="review-avatar" src={safePrefix(_.get(review, 'avatar'))} alt="Author avatar"/>
                         }
+                      <footer className="review-footer">
                         <cite className="review-author">{_.get(review, 'author')}</cite>
                       </footer>
                     </div>
