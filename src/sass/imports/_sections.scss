@@ -260,7 +260,7 @@
 
       &:first-child:nth-last-child(4),
       &:first-child:nth-last-child(4) ~ .cell {
-        min-width: 40%;
+        min-width: 25%;
       }
 
       &:first-child:nth-last-child(5),
