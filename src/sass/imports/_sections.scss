@@ -542,9 +542,9 @@
   }
 
   &.bg-purple {
-    background: _palette(accent);
-    background: -webkit-linear-gradient(left,_palette(accent), _palette(accent-alt));
-    background: linear-gradient(to right,_palette(accent), _palette(accent-alt));
+    background: _palette(accent-purple);
+    background: -webkit-linear-gradient(left,_palette(accent-purple), _palette(accent-purple-alt));
+    background: linear-gradient(to right,_palette(accent-purple), _palette(accent-purple-alt));
     color: #fff;
   }
 
