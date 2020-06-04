@@ -28,7 +28,7 @@ export default class SectionReviews extends React.Component {
                         <img className="review-avatar" src={safePrefix(_.get(review, 'avatar'))} alt="Author avatar"/>
                         }
                       <footer className="review-footer">
-                        <cite className="review-author">{_.get(review, 'author')}</cite>
+                        <cite className="review-author">{_.get(review, 'tipo_dor')}</cite>
                       </footer>
                     </div>
                   </blockquote>
