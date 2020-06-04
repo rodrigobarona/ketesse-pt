@@ -8,7 +8,7 @@ export default class SectionCta extends React.Component {
     render() {
         let section = _.get(this.props, 'section');
         return (
-            <section id={_.get(section, 'section_id')} className="block cta-block bg-accent outer">
+            <section id={_.get(section, 'section_id')} name={_.get(section, 'section_id')} className="block cta-block bg-accent outer">
               <div className="inner-large">
                 <div className="grid">
                   <div className="cell block-content">
