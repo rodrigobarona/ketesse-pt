@@ -2,6 +2,17 @@
  * General
  * ----------------------------------------------------------------------------
  */
+
+@font-face {
+    font-family: 'van_condensed_osf_bold_italRg';
+    src: url('/font/vancondensedosfbolditalic-webfont.woff2') format('woff2'),
+         url('/font/vancondensedosfbolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ 
 html {
   font-family: _font(primary);
   font-size: 112.5%;
