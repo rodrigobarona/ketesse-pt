@@ -53,6 +53,17 @@
   }
 }
 
+.hero-block .block-title {
+    display: table;
+    background-color: #82368C;
+    border-radius: .3rem;
+    padding: .0rem 1.5rem;
+    margin: 0 0 2rem 0;
+    width: auto;
+    transform: skewY(-5deg);
+    box-shadow: -4px 8px 6px 0px #0000003d;
+}
+
 @media only screen and (min-width: 801px) {
   .hero-block,
   .text-block,
