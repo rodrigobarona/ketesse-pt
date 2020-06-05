@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family: 'van_condensed_osf_bold_italRg';
+    src: url('vancondensedosfbolditalic-webfont.woff2') format('woff2'),
+         url('vancondensedosfbolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 // Font.
 $font: (
   primary: (Roboto,sans-serif)
