@@ -13,7 +13,7 @@ export default class SectionContent extends React.Component {
                 <div className="grid">
                   {_.get(section, 'image') && 
                   <div className="cell block-preview">
-                    <img src={safePrefix(_.get(section, 'image'))} alt={_.get(section, 'title')} loading="lazy"  />
+                    <img src={safePrefix(_.get(section, 'image'))} alt={_.get(section, 'title')} />
                   </div>
                   }
                   <div className="cell block-content">
