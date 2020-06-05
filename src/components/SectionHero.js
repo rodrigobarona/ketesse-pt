@@ -20,7 +20,7 @@ export default class SectionHero extends React.Component {
 
                   <div className="cell block-content">
                     {_.get(section, 'tagline') && 
-                    <h2 className="block-tagline underline">{_.get(section, 'tagline')}</h2>
+                    <strong className="block-tagline">{_.get(section, 'tagline')}</strong>
                     }
                     {_.get(section, 'title') && 
                     <h1 className="block-title underline">{_.get(section, 'title')}</h1>
