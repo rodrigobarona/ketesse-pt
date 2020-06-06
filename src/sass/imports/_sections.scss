@@ -58,10 +58,9 @@
 
 .label-shadow {
     position:relative;
-    float:left;
     width:40%;
-    padding:1em;
-    margin:2em 10px 4em;
+    padding: .5rem 2rem;
+    margin: 0 0 1rem 0;
     background:#fff;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
