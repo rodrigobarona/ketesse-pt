@@ -138,8 +138,9 @@
 
 
 
-.hero-block .block-title {
-    background-color: #82368C;
+.hero-block .block-title,
+.rotated > :first-child:before {
+    background: darken(accent-purple, 15%);
 }
 
 
