@@ -31,6 +31,12 @@ module.exports = {
             }
         },
         {
+            resolve: `gatsby-plugin-scroll-reveal`,
+            options: {
+                
+            }
+        },
+        {
             resolve: `@stackbit/gatsby-plugin-menus`,
             options: {
                 sourceUrlPath: `fields.url`,
