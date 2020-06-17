@@ -17,20 +17,6 @@ export default class Body extends React.Component {
                     <meta name="google" content="notranslate" />
                     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400,400i,700,700i&display=swap" rel="stylesheet"/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
-
-                    
-                    
-
-                         <script async src={`https://www.googletagmanager.com/gtag/js?id=GTM-NFVBF7S`}></script>
-                          <script>
-                            {`
-                              window.dataLayer = window.dataLayer || [];
-                              function gtag(){dataLayer.push(arguments);}
-                              gtag('js', new Date());
-                              gtag('config', GTM-NFVBF7S);
-                            `}
-                          </script>
-
                 </Helmet>
 
                 
