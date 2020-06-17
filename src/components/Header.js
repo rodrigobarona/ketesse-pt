@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import {Link, safePrefix, classNames} from '../utils';
 
@@ -31,9 +32,9 @@ export default class Header extends React.Component {
                       <ul className="menu">
                         {_.map(_.get(this.props, 'pageContext.site.siteMetadata.header.nav_links'), (action, action_idx) => (
                         <li key={action_idx} className={classNames('menu-item', {'current-menu-item': _.get(this.props, 'pageContext.url') === _.get(action, 'url'), 'menu-button': _.get(action, 'primary')})}>
-                          <Link to={safePrefix(_.get(action, 'url'))}
+                          <AnchorLink to={safePrefix(_.get(action, 'url'))}
                              {...(_.get(action, 'new_window') ? {target: '_blank', rel: 'noopener'} : null)}
-                             className={classNames({'button': _.get(action, 'primary')})}>{_.get(action, 'label')}</Link>
+                             className={classNames({'button': _.get(action, 'primary')})}>{_.get(action, 'label')}</AnchorLink>
                         </li>
                         ))}
                       </ul>
