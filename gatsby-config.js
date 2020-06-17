@@ -56,6 +56,7 @@ module.exports = {
               //
               // Defaults to gatsby-route-change
               routeChangeEventName: "website-change-page",
+            },
         },
         {
             resolve: `gatsby-plugin-scroll-reveal`,
