@@ -42,7 +42,11 @@ module.exports = {
         {
           resolve: 'gatsby-plugin-quantcast-tag',
           options: {
-            acccountId: 'k1ZtuzCKD0GWA',
+            // Quantcast account ID to associate tracking.
+            acccountId: 'sampletAccountId',
+     
+            // If true, add tracking code to head. Otherwise, tracking code is
+            // added to the bottom of body.
             head: false,
           },
         },
