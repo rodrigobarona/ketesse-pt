@@ -18,7 +18,6 @@
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-scroll-reveal": "0.0.7",
     "gatsby-plugin-sharp": "^2.6.11",
-    "gatsby-plugin-smoothscroll": "^1.1.0",
     "gatsby-source-filesystem": "^2.3.11",
     "gatsby-transformer-remark": "2.3.8",
     "js-yaml": "^3.14.0",
