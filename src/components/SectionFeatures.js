@@ -30,7 +30,11 @@ export default class SectionFeatures extends React.Component {
                     </div>
                     }
                     <div className="cell block-content">
-                      <h3 className="block-title underline">{_.get(feature, 'title')}</h3>
+                      {_.get(section, 'titulo_em_imagem') ?
+                      <img src={safePrefix(_.get(feature, 'titulo_em_imagem'))} alt={_.get(feature, 'title')} />
+                      :
+                      <h3 className="block-title">{_.get(feature, 'title')}</h3>
+                      }
                       <div className="block-copy">
                         {markdownify(_.get(feature, 'content'))}
                       </div>
