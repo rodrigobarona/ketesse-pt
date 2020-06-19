@@ -264,6 +264,10 @@
       &:first-child:nth-last-child(5) ~ .cell {
         min-width: 30%;
       }
+
+      .block-title {
+        color: #fff;
+      }
     }
 
     .review-inside {
