@@ -24,7 +24,7 @@ export default class Footer extends React.Component {
                       }
                       {_.get(this.props, 'pageContext.site.siteMetadata.footer.tagline') && 
                       <p className="site-description">
-                        {markdownify (_.get(this.props, 'pageContext.site.siteMetadata.footer.tagline'))}
+                        {markdownify(_.get(this.props, 'pageContext.site.siteMetadata.footer.tagline'))}
                       </p>
                       }
                     </div>
