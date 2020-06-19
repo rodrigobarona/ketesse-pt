@@ -210,12 +210,10 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 
   .review-author {
-    color: _palette(secondary);
+    color: #fff;
     font-size: inherit;
     font-weight: bold;
     margin: 0;
@@ -278,6 +276,7 @@
       -ms-flex-direction: column;
       flex-direction: column;
       margin: 0 0.833333em;
+      max-height: 9rem;
     }
   }
 }
