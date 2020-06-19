@@ -30,7 +30,7 @@ export default class SectionFeatures extends React.Component {
                     </div>
                     }
                     <div className="cell block-content">
-                      {_.get(section, 'titulo_em_imagem') ?
+                      {_.get(feature, 'titulo_em_imagem') ?
                       <img src={safePrefix(_.get(feature, 'titulo_em_imagem'))} alt={_.get(feature, 'title')} />
                       :
                       <h3 className="block-title">{_.get(feature, 'title')}</h3>
