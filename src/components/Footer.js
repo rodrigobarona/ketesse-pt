@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, safePrefix, htmlToReact} from '../utils';
+import {Link, safePrefix, htmlToReact, markdownify} from '../utils';
 import ActionLink from './ActionLink';
 import SubscribeForm from './SubscribeForm';
 
