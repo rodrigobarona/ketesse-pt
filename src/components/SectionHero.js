@@ -11,17 +11,11 @@ export default class SectionHero extends React.Component {
             <section id={_.get(section, 'section_id')}  name={_.get(section, 'section_id')} className="block hero-block bg-accent outer"
                 style="
                 {_.get(section, 'image') && 
-                    background-image: linear-gradient(rgba(138, 83, 149, 0.8), rgba(138, 83, 149, 0.8)), url({safePrefix(_.get(section, 'image'))};
-                }"
-
-            >
+                    background-image: linear-gradient(rgba(138, 83, 149, 0.8), rgba(138, 83, 149, 0.8)), url({safePrefix(_.get(section, 'image'))});
+                }
+                " >
               <div className="inner">
                 <div className="grid">
-                  {_.get(section, 'image') && 
-                  <div className="cell block-preview">
-                    <img src={safePrefix(_.get(section, 'image'))} alt={_.get(section, 'title')} />
-                  </div>
-                  }
                   
 
                   <div className="cell block-content">
