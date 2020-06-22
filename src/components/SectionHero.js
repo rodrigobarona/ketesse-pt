@@ -8,18 +8,13 @@ export default class SectionHero extends React.Component {
     render() {
         let section = _.get(this.props, 'section');
         const bgimage = {
-          backgroundImage: 'url(' + _.get(section, 'image') + ')',
+          background: 'linear-gradient(rgba(138, 83, 149, 0.8), rgba(138, 83, 149, 0.8)), url(' + _.get(section, 'image') + ') cover center no-repeat',
         };
 
         return (
             <section id={_.get(section, 'section_id')}  name={_.get(section, 'section_id')} style={bgimage} className={'block hero-block bg-accent outer'}>
               <div className="inner">
                 <div className="grid">
-                  {_.get(section, 'image') && 
-                  <div className="cell block-preview">
-                    <img src={safePrefix(_.get(section, 'image'))} alt={_.get(section, 'title')} />
-                  </div>
-                  }
                   <div className="cell block-content">
                     {_.get(section, 'title_image') ?
                       <img src={safePrefix(_.get(section, 'title_image'))} alt={_.get(section, 'title')} />
