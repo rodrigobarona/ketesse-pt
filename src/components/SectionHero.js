@@ -8,7 +8,7 @@ export default class SectionHero extends React.Component {
     render() {
         let section = _.get(this.props, 'section');
         const bgimage = {
-          background: 'linear-gradient(rgba(138, 83, 149, 0.8), rgba(138, 83, 149, 0.8)), url(' + _.get(section, 'image') + '?auto=compress&fit=crop&max-w=1200)',
+          background: 'linear-gradient(rgba(138, 83, 149, 0.8), rgba(138, 83, 149, 0.8)), url(' + _.get(section, 'image') + '?auto=format&q=65&lossless=1&fit=clamp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
