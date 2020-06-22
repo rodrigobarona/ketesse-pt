@@ -12,7 +12,7 @@ export default class SectionHero extends React.Component {
         };
 
         return (
-            <section id={_.get(section, 'section_id')}  name={_.get(section, 'section_id')} className={'block hero-block bg-accent ' + bgimage + ' outer'}>
+            <section id={_.get(section, 'section_id')}  name={_.get(section, 'section_id')} style={bgimage} className={'block hero-block bg-accent outer'}>
               <div className="inner">
                 <div className="grid">
                   {_.get(section, 'image') && 
