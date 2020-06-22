@@ -9,9 +9,9 @@ export default class SectionHero extends React.Component {
         let section = _.get(this.props, 'section');
         return (
             <section id={_.get(section, 'section_id')}  name={_.get(section, 'section_id')} className="block hero-block bg-accent outer" 
-               
+                {_.get(section, 'image') && 
                    style="background-image: linear-gradient(rgba(138, 83, 149, 0.8), rgba(138, 83, 149, 0.8)), url({safePrefix(_.get(section, 'image'))});"
-                
+                }
                  >
               <div className="inner">
                 <div className="grid">
