@@ -29,7 +29,7 @@ export default class SectionFeatures extends React.Component {
                       <img src={safePrefix(_.get(feature, 'image'))} alt={_.get(feature, 'title')} />
                     </div>
                     }
-                    <div className="cell block-content">
+                    <div className="cell block-content"  data-sal="slide-up" data-sal-delay="150">
                       {_.get(feature, 'titulo_em_imagem') ?
                       <img src={safePrefix(_.get(feature, 'titulo_em_imagem'))} alt={_.get(feature, 'title')} className="title-image"  />
                       :

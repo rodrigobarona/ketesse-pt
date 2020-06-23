@@ -20,7 +20,7 @@ export default class SectionFaq extends React.Component {
                   }
                 </div>
                 {_.get(section, 'faq_items') && 
-                <dl className="faq-accordion">
+                <dl className="faq-accordion"  data-sal="slide-up" data-sal-delay="150">
                   {_.map(_.get(section, 'faq_items'), (faqitem, faqitem_idx) => (<React.Fragment key={faqitem_idx}>
                   <dt key={faqitem_idx} className="accordion-header">
                     <button className="accordion-trigger">

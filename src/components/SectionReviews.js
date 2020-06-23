@@ -24,7 +24,7 @@ export default class SectionReviews extends React.Component {
               <div className="inner">
                 <div className="grid">
                   {_.map(_.get(section, 'reviews'), (review, review_idx) => (
-                  <blockquote key={review_idx} className="cell review">
+                  <blockquote key={review_idx} className="cell review"  data-sal="slide-up" data-sal-delay="150">
                     <div className="review-inside">
                       {_.get(review, 'avatar') && 
                         <img className="review-avatar" src={safePrefix(_.get(review, 'avatar'))} alt="Author avatar"/>
