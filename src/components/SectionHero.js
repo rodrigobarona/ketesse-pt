@@ -12,7 +12,7 @@ export default class SectionHero extends React.Component {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          height: '45vh';
+          height: '45vh',
         };
 
         return (
