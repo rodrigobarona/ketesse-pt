@@ -18,6 +18,20 @@ module.exports = {
           }
         },
         {
+          resolve: `gatsby-plugin-manifest`,
+          options: {
+            name: `Ketesse 25mg`,
+            short_name: `Ketesse`,
+            start_url: `/`,
+            background_color: `#8A5395`,
+            theme_color: `#8A5395`,
+            display: `standalone`,
+            icon: `/images/icon.png`, 
+            crossOrigin: `use-credentials`,
+          },
+        },
+        'gatsby-plugin-offline',
+        {
             resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
                 inputFile: `${__dirname}/src/sass/main.scss`,
