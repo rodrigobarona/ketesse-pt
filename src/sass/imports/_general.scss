@@ -5,10 +5,10 @@
 
 @font-face {
     font-family: 'van_condensed_osf_bold_italRg';
-    src: url('/fonts/vancondensedosfbolditalic-webfont.woff2') format('woff2'),
-         url('/fonts/vancondensedosfbolditalic-webfont.woff') format('woff');
-    font-weight: normal;
+    src: local('Van Condensed Bold Italic'), local('Van-Condensed-Bold-Italic'), url('/fonts/vancondensedosfbolditalic-webfont.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
+    font-display: swap;
 
 }
 

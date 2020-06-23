@@ -26,12 +26,12 @@ export default class SectionFeatures extends React.Component {
                   <div className="grid">
                     {_.get(feature, 'image') && 
                     <div className="cell block-preview">
-                      <img src={safePrefix(_.get(feature, 'image') + '?auto=format&q=65')} alt={_.get(feature, 'title')} />
+                      <img src={safePrefix(_.get(feature, 'image') + '?auto=format&q=65')} alt={_.get(feature, 'title')}  loading="lazy" />
                     </div>
                     }
                     <div className="cell block-content"  data-sal="slide-up" data-sal-delay="150">
                       {_.get(feature, 'titulo_em_imagem') ?
-                      <img src={safePrefix(_.get(feature, 'titulo_em_imagem') + '?auto=format&q=65')} alt={_.get(feature, 'title')} className="title-image"  />
+                      <img src={safePrefix(_.get(feature, 'titulo_em_imagem') + '?auto=format&q=65')} alt={_.get(feature, 'title')} className="title-image" loading="lazy" />
                       :
                       <h3 className="block-title">{_.get(feature, 'title')}</h3>
                       }

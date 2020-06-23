@@ -20,7 +20,7 @@ export default class SectionHero extends React.Component {
                 <div className="grid">
                   <div className="cell block-content"  data-sal="slide-up" data-sal-delay="150">
                     {_.get(section, 'title_image') ?
-                      <img src={safePrefix(_.get(section, 'title_image') + '?auto=format&q=65')} alt={_.get(section, 'title')} className="title-image"  />
+                      <img src={safePrefix(_.get(section, 'title_image') + '?auto=format&q=65')} alt={_.get(section, 'title')} className="title-image" loading="lazy" />
                       :
                       <h1 className="block-title">{_.get(section, 'title')}</h1>
                       }
