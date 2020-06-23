@@ -51,6 +51,13 @@
   .underline:after {
     display: none;
   }
+
+}
+
+.block-content {
+  .title-image {
+    width: 70%; 
+  }
 }
 
 
@@ -118,6 +125,9 @@
     }
   }
 
+.reviews-block.outer {
+    padding-top: 1.16667rem;
+}
  
   .text-block,
   .block-item:nth-child(2n+1) {
