@@ -13,12 +13,12 @@ export default class SectionContent extends React.Component {
                 <div className="grid">
                   {_.get(section, 'image') && 
                   <div className="cell block-preview">
-                    <img src={safePrefix(_.get(section, 'image'))} alt={_.get(section, 'title')} />
+                    <img src={safePrefix(_.get(section, 'image') + '?auto=format&q=65')} alt={_.get(section, 'title')} />
                   </div>
                   }
                   <div className="cell block-content"  data-sal="slide-up" data-sal-delay="150">
                      {_.get(section, 'titulo_em_imagem') ?
-                    <img src={safePrefix(_.get(section, 'titulo_em_imagem'))} alt={_.get(section, 'title')} className="title-image" />
+                    <img src={safePrefix(_.get(section, 'titulo_em_imagem') + '?auto=format&q=65')} alt={_.get(section, 'title')} className="title-image" />
                     :
                     <h2 className="block-title">{_.get(section, 'title')}</h2>
                     }
