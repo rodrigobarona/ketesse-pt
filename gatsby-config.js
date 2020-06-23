@@ -26,7 +26,7 @@ module.exports = {
             background_color: `#8A5395`,
             theme_color: `#8A5395`,
             display: `standalone`,
-            icon: `/images/icon.png`, 
+            icon: `${__dirname}/static/images/icon.png`, 
             crossOrigin: `use-credentials`,
           },
         },
