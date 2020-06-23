@@ -18,7 +18,7 @@ export default class SectionHero extends React.Component {
             <section id={_.get(section, 'section_id')}  name={_.get(section, 'section_id')} style={bgimage} className={'block hero-block bg-accent outer'}>
               <div className="inner">
                 <div className="grid">
-                  <div className="cell block-content">
+                  <div className="cell block-content"  data-sal="slide-up" data-sal-delay="150">
                     {_.get(section, 'title_image') ?
                       <img src={safePrefix(_.get(section, 'title_image'))} alt={_.get(section, 'title')} className="title-image"  />
                       :
