@@ -11,6 +11,12 @@ module.exports = {
                 path: `${__dirname}/src/pages`,
             },
         },
+         {
+          resolve: 'gatsby-plugin-html-attributes',
+          options: {
+            lang: 'pt'
+          }
+        }
         {
             resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
@@ -29,6 +35,12 @@ module.exports = {
             options: {
                 
             }
+        },
+        {
+            resolve: 'gatsby-plugin-preconnect',
+            options: {
+              domains: ['https://www.googletagmanager.com'],
+            },
         },
         {
             resolve: `gatsby-plugin-google-tagmanager`,
