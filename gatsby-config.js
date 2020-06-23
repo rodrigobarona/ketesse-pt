@@ -16,7 +16,7 @@ module.exports = {
           options: {
             lang: 'pt'
           }
-        }
+        },
         {
             resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
