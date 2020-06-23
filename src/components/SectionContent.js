@@ -17,8 +17,10 @@ export default class SectionContent extends React.Component {
                   </div>
                   }
                   <div className="cell block-content"  data-sal="fade" data-sal-delay="300" data-sal-easing="easeInSine">
-                    {_.get(section, 'title') && 
-                    <h2 className="block-title underline">{_.get(section, 'title')}</h2>
+                     {_.get(section, 'titulo_em_imagem') ?
+                    <img src={safePrefix(_.get(section, 'titulo_em_imagem'))} alt={_.get(section, 'title')} className="title-image" />
+                    :
+                    <h2 className="block-title">{_.get(section, 'title')}</h2>
                     }
                     <div className="block-copy">
                       {markdownify(_.get(section, 'content'))}
