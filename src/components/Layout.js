@@ -13,12 +13,12 @@ export default class Body extends React.Component {
                 <Helmet>
                     <title>{_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}{_.get(this.props, 'pageContext.site.siteMetadata.title')}</title>
                     <meta charSet="utf-8"/>
-                    <meta name="description" content={_.get(this.props, 'pageContext.site.globalSeo.fallbackSeo.description')}>
+                    <meta name="description" content={_.get(this.props, 'pageContext.site.globalSeo.fallbackSeo.description')} />
 
-                    <meta property="og:title" content={_.get(this.props, 'pageContext.site.siteMetadata.title')}>
-                    <meta property="og:type" content="website">
-                    <meta property="og:url" content="https://ketesse.pt">
-                    <meta property="og:image" content="">
+                    <meta property="og:title" content={_.get(this.props, 'pageContext.site.siteMetadata.title')} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://ketesse.pt" />
+                    <meta property="og:image" content="" />
 
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="google" content="notranslate" />
