@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {htmlToReact, markdownify} from '../utils';
+import {htmlToReact} from '../utils';
 
 export default class SectionFaq extends React.Component {
     render() {
@@ -10,7 +10,7 @@ export default class SectionFaq extends React.Component {
             <section id={_.get(section, 'section_id')} name={_.get(section, 'section_id')} className={'block faq-block bg-' + _.get(section, 'background')}>
               <div className="inner-medium">
                 <div className="block-header">
-                  {_.get(section, 'title') && 
+                  {_.get(section, 'show_header') && 
                   <h2 className="block-title">{_.get(section, 'title')}</h2>
                   }
                   {_.get(section, 'subtitle') && 
@@ -20,7 +20,7 @@ export default class SectionFaq extends React.Component {
                   }
                 </div>
                 {_.get(section, 'faq_items') && 
-                <dl className="faq-accordion"  data-sal="slide-up" data-sal-delay="150">
+                <dl className="faq-accordion">
                   {_.map(_.get(section, 'faq_items'), (faqitem, faqitem_idx) => (<React.Fragment key={faqitem_idx}>
                   <dt key={faqitem_idx} className="accordion-header">
                     <button className="accordion-trigger">
@@ -30,7 +30,7 @@ export default class SectionFaq extends React.Component {
                   </dt>
                   <dd key={faqitem_idx} className="accordion-panel">
                     <div className="accordion-content">
-                      {markdownify(_.get(faqitem, 'answer'))}
+                      {(_.get(faqitem, 'answer'))}
                     </div>
                   </dd>
                   </React.Fragment>))}
