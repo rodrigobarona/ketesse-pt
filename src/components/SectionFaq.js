@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {htmlToReact} from '../utils';
+import {htmlToReact, markdownify} from '../utils';
 
 export default class SectionFaq extends React.Component {
     render() {
@@ -30,7 +30,7 @@ export default class SectionFaq extends React.Component {
                   </dt>
                   <dd key={faqitem_idx} className="accordion-panel">
                     <div className="accordion-content">
-                      {(_.get(faqitem, 'answer'))}
+                      {markdownify(_.get(faqitem, 'answer'))}
                     </div>
                   </dd>
                   </React.Fragment>))}
