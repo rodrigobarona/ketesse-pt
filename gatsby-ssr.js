@@ -10,7 +10,9 @@ const safePrefix = require("./src/utils/safePrefix").default;
 exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
 
     setHeadComponents([
-        
+        <React.Fragment>
+        	<script src={safePrefix('onetrust/ketesse.js')}/>
+        </React.Fragment>
     ]);
 
     setPostBodyComponents([
