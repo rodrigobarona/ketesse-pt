@@ -14,7 +14,7 @@ export default class Header extends React.Component {
                     {_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img') && 
                     <p className="site-logo">
                       <Link to={safePrefix('/')}>
-                        <img src={safePrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img') + '?auto=format&q=65&fit=crop&h=40')} alt="Logo" loading="lazy" width="100%" height="70" />
+                        <img src={safePrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img') + '?auto=format&q=65&fit=crop&h=70')} alt="Logo" loading="lazy" width="100%" height="70" />
                       </Link>
                     </p>
                     }
