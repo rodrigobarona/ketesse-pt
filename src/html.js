@@ -5,7 +5,7 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <script src='/onetrust/ketesse.js'></script>
+        <link as="script" rel="preload" href='/onetrust/ketesse.js'>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
