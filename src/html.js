@@ -5,7 +5,6 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <script async src='/onetrust/ketesse.js'></script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
