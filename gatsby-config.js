@@ -50,12 +50,7 @@ module.exports = {
                 
             }
         },
-        {
-            resolve: 'gatsby-plugin-preconnect',
-            options: {
-              domains: ['https://www.googletagmanager.com'],
-            },
-        },
+       
         
         {
               resolve: `gatsby-plugin-gdpr-cookies`,
@@ -78,7 +73,6 @@ module.exports = {
                 environments: ['production']
               },
             },
-
 
         {
               resolve: "gatsby-plugin-anchor-links",

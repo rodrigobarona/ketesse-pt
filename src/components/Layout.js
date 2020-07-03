@@ -17,7 +17,7 @@ export default class Body extends React.Component {
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="google" content="notranslate" />
                     <link rel="preload" rel="stylesheet" href={safePrefix('assets/css/main.css')} />
-                    <link rel="preload" rel="stylesheet" href={safePrefix('/onetrust/ketesse.css')} />
+                    <link rel="preload" rel="stylesheet" href={safePrefix('onetrust/ketesse.css')} />
                 </Helmet>
                 <div id="page" className={'site palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
                   <Header {...this.props} />
