@@ -5,6 +5,12 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
+   
+      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="b49e0ba8-438a-4fee-92ac-8a58d0305a93"></script>
+      <script type="text/javascript">
+      function OptanonWrapper() { }
+      </script>
+   
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
