@@ -75,6 +75,14 @@ module.exports = {
             },
 
         {
+            resolve: 'gatsby-plugin-preconnect',
+            options: {
+              domains: ['https://www.googletagmanager.com'],
+            },
+        },
+        
+
+        {
               resolve: "gatsby-plugin-anchor-links",
               options: {
                 offset: -87
