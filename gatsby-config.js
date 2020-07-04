@@ -77,10 +77,10 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-preconnect',
             options: {
-              domains: ['https://www.googletagmanager.com'],
+              domains: ['https://cdn.cookielaw.org, https://www.googletagmanager.com'],
             },
         },
-        
+
 
         {
               resolve: "gatsby-plugin-anchor-links",
