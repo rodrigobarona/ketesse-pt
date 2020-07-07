@@ -110,8 +110,9 @@
 }
 
 @media only screen and (max-width: 800px) {
-  #gatsby-focus-wrapper {
+  .site {
     overflow: hidden;
+    position: relative;
   }
 
   .site-header:before {
