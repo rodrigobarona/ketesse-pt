@@ -207,6 +207,7 @@
   margin: 0 auto 1.66667rem;
   max-width: 488px;
   padding: 0;
+  flex: 0 45%;
 }
 
 .review-inside {
@@ -275,9 +276,9 @@
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-flex: 1 1 280px;
-      -ms-flex: 1 1 280px;
-      flex: 1 1 280px;
+      -webkit-flex: 0 25%;
+      -ms-flex: 0 25%;
+      flex: 0 25%;
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
