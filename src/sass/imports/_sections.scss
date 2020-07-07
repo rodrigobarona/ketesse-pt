@@ -479,11 +479,10 @@
 
 .accordion-content {
   background: #fff;
-  border: 1px solid _palette(border);
-  border-radius: 3px;
   color: _palette(primary);
   font-size: 0.88889rem;
   padding: 1rem 15px 0;
+  text-align: center;
 }
 
 .accordion-trigger.-ba-is-active .icon-plus:after {
