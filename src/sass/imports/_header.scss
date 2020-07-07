@@ -95,7 +95,7 @@
 }
 
 @supports (position: sticky) or (position: -webkit-sticky) {
-  @media only screen and (min-width: 801px) {
+
     .site-header {
       background: #fff;
       position: -webkit-sticky;
@@ -107,7 +107,6 @@
     .has--scrolled .site-header {
       box-shadow: 0 1px 4px 0 rgba(_palette(primary),.1);
     }
-  }
 }
 
 @media only screen and (max-width: 800px) {
