@@ -69,6 +69,13 @@ export default class Footer extends React.Component {
                     }
                   </div>
                 </div>
+
+                {_.get(this.props, 'pageContext.site.siteMetadata.footer.show_legal_notes') && 
+                  <div class="inner legal-notes">
+                  <p>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.legal_notes'))}</p>
+                  </div>
+                }   
+
               </div>
               <div className="site-info outer">
                 <div className="inner">
