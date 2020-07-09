@@ -6,7 +6,7 @@ export default function HTML(props) {
     <html {...props.htmlAttributes}>
       <head>
    
-      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="b49e0ba8-438a-4fee-92ac-8a58d0305a93"></script>
+      <script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="b49e0ba8-438a-4fee-92ac-8a58d0305a93"></script>
        <script type="text/javascript">
         function OptanonWrapper() {
           // Docs: https://community.cookiepro.com/s/article/UUID-730ad441-6c4d-7877-7f85-36f1e801e8ca 
