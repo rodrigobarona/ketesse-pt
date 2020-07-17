@@ -1,4 +1,93 @@
 {
-  "title": "Ketesse 25 mg",
-  "none": ""
+    "title": "Ketesse",
+    "none": "",
+    "site_description": "Dexcetoprofeno 25 mg, medicamento analgésico anti-inflamatório para o alívio das dores de cabeça, dores de dentes, dores menstruais e dores musculares.",
+    "footer": {
+        "show_legal_notes": true,
+        "legal_notes": "<p>* Efeito analg&eacute;sico 30 minutos ap&oacute;s a administra&ccedil;&atilde;o no caso dos comprimidos e 15-20 minutos no caso do granulado para solu&ccedil;&atilde;o oral. <br />** Em caso de dor aguda, pelo menos 30 minutos antes da refei&ccedil;&atilde;o no caso dos comprimidos e 15 minutos antes da refei&ccedil;&atilde;o no caso do granulado para solu&ccedil;&atilde;o oral.</p><p><strong>Informa&ccedil;&otilde;es Indispens&aacute;veis ao Uso Racional do Medicamento:</strong> Ketesse 25 mg, comprimidos revestidos por pel&iacute;cula. Cada comprimido cont&eacute;m &nbsp;dexcetoprofeno 25 mg como trometamol de dexcetoprofeno. Ketesse 25 mg, granulado para solu&ccedil;&atilde;o oral. Cada saqueta de granulado para solu&ccedil;&atilde;o oral cont&eacute;m 25 mg de dexcetoprofeno como trometamol de dexcetoprofeno.<br /><strong>Indica&ccedil;&otilde;es terap&ecirc;uticas:</strong> Tratamento sintom&aacute;tico da dor de intensidade leve a moderada, como dor m&uacute;sculo-esquel&eacute;tica, dismenorreia, odontalgia.<br /><strong>Advert&ecirc;ncias e precau&ccedil;&otilde;es especiais de utiliza&ccedil;&atilde;o:</strong> Administrar com cuidado em doentes com hist&oacute;ria de alergia. O uso de Ketesse em concomit&acirc;ncia com outros AINEs incluindo os inibidores seletivos da ciclooxigenase-2 dever&aacute; ser evitado. Os efeitos indesej&aacute;veis podem ser minimizados utilizando a menor dose eficaz durante o menor espa&ccedil;o de tempo necess&aacute;rio para controlar os sintomas.</p><p>Ler cuidadosamente as informa&ccedil;&otilde;es constantes do acondicionamento secund&aacute;rio e do folheto informativo e, em caso de d&uacute;vida ou de persist&ecirc;ncia dos sintomas, consulte o seu m&eacute;dico ou o seu farmac&ecirc;utico.&nbsp;<br />Menarini International Operations Luxembourg S.A.&nbsp; <strong>Representante local:</strong> Lubefar-Produtos Farmac&ecirc;uticos, Lda., Quinta da Fonte, Edif&iacute;cio D. Manuel I, Piso 2 - A, Rua dos Malh&otilde;es no. 1 2770-071 Pa&ccedil;o de Arcos, Portugal.<br />Informa&ccedil;&otilde;es revistas em Julho de 2018. Para mais informa&ccedil;&otilde;es dever&aacute; contactar o representante local do Titular da Autoriza&ccedil;&atilde;o de Introdu&ccedil;&atilde;o no Mercado. Medicamento N&atilde;o Sujeito a Receita M&eacute;dica. Dispensa Exclusiva em Farm&aacute;cia. N&atilde;o comparticipado. Refer&ecirc;ncia 01/2020</p>",
+        "has_subscribe": false,
+        "links": [
+            {
+                "new_window": true,
+                "primary": false,
+                "url": "https://www.menarini.it/",
+                "label": "Menarini Group"
+            }
+        ],
+        "content": "&copy; 2020 Menarini Portugal ",
+        "subscribe_content": "Stay up to date with our latest developments.",
+        "subscribe_title": "Subscribe",
+        "social_links": [
+            {
+                "new_window": true,
+                "primary": false,
+                "url": "https://twitter.com/",
+                "label": "Twitter"
+            },
+            {
+                "new_window": true,
+                "primary": false,
+                "url": "https://www.instagram.com/",
+                "label": "Instagram"
+            },
+            {
+                "new_window": true,
+                "primary": false,
+                "url": "https://www.linkedin.com/",
+                "label": "LinkedIn"
+            }
+        ],
+        "social_title": "Community",
+        "has_social": false,
+        "nav_links": [
+            {
+                "new_window": false,
+                "primary": false,
+                "url": "/politica-de-privacidade/",
+                "label": "Politica de Privacidade"
+            },
+            {
+                "new_window": false,
+                "primary": false,
+                "url": "/termos-e-condicoes/",
+                "label": "Termos e Condições"
+            },
+            {
+                "new_window": true,
+                "primary": false,
+                "url": "/politica-de-cookies/",
+                "label": "Politica de Cookies"
+            }
+        ],
+        "nav_title": "Informação Legal",
+        "has_nav": true,
+        "tagline": "<div>Lubefar, uma empresa do Grupo Menarini<br />Quinta da Fonte, Edif&iacute;cio D. Manuel I - Piso 2-A <br />Rua dos Malh&otilde;es,1 <br />2770-071 Pa&ccedil;o de Arcos <br />Telf. <a href=\"tel:+351210935500\">(+351) 210 935 500</a></div>",
+        "logo_img": "https://www.datocms-assets.com/29395/1591608292-menarini-extenso.png"
+    },
+    "header": {
+        "nav_links": [
+            {
+                "new_window": false,
+                "primary": false,
+                "url": "/#para-que-serve-ketesse",
+                "label": "Para que serve?"
+            },
+            {
+                "new_window": false,
+                "primary": false,
+                "url": "/#tipos-dor",
+                "label": "Tipos de dor"
+            },
+            {
+                "new_window": false,
+                "primary": false,
+                "url": "/#como-tomar",
+                "label": "Como tomar"
+            }
+        ],
+        "has_nav": true,
+        "logo_img": "https://www.datocms-assets.com/29395/1594218061-logo-ketesse-black.svg",
+        "title": "Ketesse 25 mg."
+    },
+    "palette": "purple"
 }
