@@ -67,18 +67,21 @@
     "header": {
         "nav_links": [
             {
+                "css_style": "para-que-serve-ketesse",
                 "new_window": false,
                 "primary": false,
                 "url": "/#para-que-serve-ketesse",
                 "label": "Para que serve?"
             },
             {
+                "css_style": "tipos-dor",
                 "new_window": false,
                 "primary": false,
                 "url": "/#tipos-dor",
                 "label": "Tipos de dor"
             },
             {
+                "css_style": "como-tomar",
                 "new_window": false,
                 "primary": false,
                 "url": "/#como-tomar",

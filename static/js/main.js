@@ -46,4 +46,40 @@ Array.from(accordions).forEach((accordion) => {
   });
 });
 
+
+
+// Google Tag Manager - Track Events - Requested by mariaiolanda.serra@intarget.net
+var paraQueServe = document.getElementsByClassName('para-que-serve-ketesse');
+var tiposDor = document.getElementsByClassName('tipos-dor');
+var comoTomar = document.getElementsByClassName('como-tomar');
+
+  paraQueServe[0].addEventListener('click', function(event){
+    
+    dataLayer.push({
+    'event': 'website-change-page',
+    'vpvname': 'para-que-serve'
+    });  
+
+  },false);
+
+  tiposDor[0].addEventListener('click', function(event){
+    
+    dataLayer.push({
+    'event': 'website-change-page',
+    'vpvname': 'tipos-dor'
+    });  
+
+  },false);
+
+
+  comoTomar[0].addEventListener('click', function(event){
+    
+    dataLayer.push({
+    'event': 'website-change-page',
+    'vpvname': 'como-tomar'
+    });  
+
+  },false);
+
+
 };
