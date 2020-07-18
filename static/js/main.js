@@ -60,6 +60,11 @@ var comoTomar = document.getElementsByClassName('como-tomar');
     'vpvname': 'para-que-serve'
     });  
 
+    if (window.location.pathname !== '/') { 
+      console.log ('not homepage');
+       window.location = '/#para-que-serve-ketesse';  
+    }
+
   },false);
 
   tiposDor[0].addEventListener('click', function(event){
@@ -68,6 +73,12 @@ var comoTomar = document.getElementsByClassName('como-tomar');
     'event': 'website-change-page',
     'vpvname': 'tipos-dor'
     });  
+
+
+    if (window.location.pathname !== '/') { 
+      console.log ('not homepage');
+       window.location = '/#tipos-dor';  
+    }
 
   },false);
 
@@ -78,6 +89,12 @@ var comoTomar = document.getElementsByClassName('como-tomar');
     'event': 'website-change-page',
     'vpvname': 'como-tomar'
     });  
+
+    
+    if (window.location.pathname !== '/') { 
+      console.log ('not homepage');
+       window.location = '/#como-tomar';  
+    }
 
   },false);
 
