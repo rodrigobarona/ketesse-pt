@@ -87,7 +87,6 @@ module.exports = {
             },
         },
 
-      'gatsby-plugin-preload-link-crossorigin',
 
         {
               resolve: "gatsby-plugin-anchor-links",
