@@ -83,7 +83,7 @@ module.exports = {
          {
             resolve: 'gatsby-plugin-preconnect',
             options: {
-              domains: ['https://cdn.cookielaw.org, https://www.googletagmanager.com, https://datocms-assets.com'],
+              domains: ['https://cdn.cookielaw.org, https://www.googletagmanager.com, https://datocms-assets.com, https://s.ytimg.com'],
             },
         },
 
