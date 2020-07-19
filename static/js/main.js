@@ -61,7 +61,7 @@ var comoTomar = document.getElementsByClassName('como-tomar');
     });  
 
     if (window.location.pathname !== '/') { 
-      console.log ('not homepage');
+      
        window.location = '/#para-que-serve-ketesse';  
     }
 
@@ -76,7 +76,7 @@ var comoTomar = document.getElementsByClassName('como-tomar');
 
 
     if (window.location.pathname !== '/') { 
-      console.log ('not homepage');
+      
        window.location = '/#tipos-dor';  
     }
 
@@ -90,9 +90,9 @@ var comoTomar = document.getElementsByClassName('como-tomar');
     'vpvname': 'como-tomar'
     });  
 
-    
+
     if (window.location.pathname !== '/') { 
-      console.log ('not homepage');
+        
        window.location = '/#como-tomar';  
     }
 
