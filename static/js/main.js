@@ -52,6 +52,7 @@ Array.from(accordions).forEach((accordion) => {
 var paraQueServe = document.getElementsByClassName('para-que-serve-ketesse');
 var tiposDor = document.getElementsByClassName('tipos-dor');
 var comoTomar = document.getElementsByClassName('como-tomar');
+var saibaMais = document.querySelectorAll("#hero .block-buttons a");
 
   paraQueServe[0].addEventListener('click', function(event){
     
@@ -98,5 +99,13 @@ var comoTomar = document.getElementsByClassName('como-tomar');
 
   },false);
 
+  saibaMais[0].addEventListener('click', function(event){
+    
+    dataLayer.push({
+    'event': 'website-change-page',
+    'vpvname': 'hero-para-que-serve'
+    });  
+
+  },false);
 
 };
