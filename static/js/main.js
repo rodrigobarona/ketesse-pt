@@ -99,13 +99,16 @@ var saibaMais = document.querySelectorAll("#hero .block-buttons a");
 
   },false);
 
-  saibaMais[0].addEventListener('click', function(event){
-    
-    dataLayer.push({
-    'event': 'website-change-page',
-    'vpvname': 'hero-para-que-serve'
-    });  
 
-  },false);
+  if (window.location.pathname === '/') { 
+    saibaMais[0].addEventListener('click', function(event){
+      
+      dataLayer.push({
+      'event': 'website-change-page',
+      'vpvname': 'hero-para-que-serve'
+      });  
+
+    },false);
+  }
 
 };
