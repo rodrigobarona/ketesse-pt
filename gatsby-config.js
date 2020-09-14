@@ -26,7 +26,7 @@ module.exports = {
             background_color: `#8A5395`,
             theme_color: `#8A5395`,
             display: `standalone`,
-            icon: `${__dirname}/static/images/icon.png`, 
+            icon: `${__dirname}/static/images/icon.png`,
             crossOrigin: `use-credentials`,
           },
         },
@@ -47,7 +47,7 @@ module.exports = {
         {
             resolve: `gatsby-remark-page-creator`,
             options: {
-                
+
             }
         },
 
@@ -65,7 +65,7 @@ module.exports = {
             // should be an object or a function that is executed in the browser
             //
             // Defaults to null
-            defaultDataLayer: { pageLanguage: "pt" },
+            //defaultDataLayer: { pageLanguage: "pt" },
 
             // Specify optional GTM environment details.
             // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
@@ -97,7 +97,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-scroll-reveal`,
             options: {
-                
+
             }
         },
         {
