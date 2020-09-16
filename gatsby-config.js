@@ -4,6 +4,7 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-plugin-sitemap`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -15,6 +16,14 @@ module.exports = {
           resolve: 'gatsby-plugin-html-attributes',
           options: {
             lang: 'pt'
+          }
+        },
+        {
+          resolve: 'gatsby-plugin-robots-txt',
+          options: {
+            host: 'https://ketesse.pt',
+            sitemap: 'https://ketesse.pt/sitemap.xml',
+            policy: [{ userAgent: '*', allow: '/' }]
           }
         },
         {
