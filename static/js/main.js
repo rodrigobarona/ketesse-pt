@@ -54,6 +54,36 @@ var tiposDor = document.getElementsByClassName('tipos-dor');
 var comoTomar = document.getElementsByClassName('como-tomar');
 var saibaMais = document.querySelectorAll("#hero .block-buttons a");
 
+// Para track do Scroll
+var heroSection = document.getElementById('hero');
+var paraQueServeSection = document.getElementById('para-que-serve-ketesse');
+var tiposDorSection = document.getElementById('tipos-dor');
+var comoTomarSection = document.getElementById('como-tomar');
+
+  // Hero
+  if (window.location.pathname === '/') { 
+    saibaMais[0].addEventListener('click', function(event){
+      
+      dataLayer.push({
+      'event': 'website-change-page',
+      'vpvname': 'hero-para-que-serve'
+      });  
+
+    },false);
+  }
+
+  heroSection.addEventListener('sal:in', function(event) {
+    if(event.target === heroSection){
+         console.log('entering - hero - section');
+          dataLayer.push({
+          'event': 'website-change-page',
+          'vpvname': 'entering-hero-section'
+          }); 
+    }
+  });
+
+
+  // Para Que Serve
   paraQueServe[0].addEventListener('click', function(event){
     
     dataLayer.push({
@@ -68,6 +98,18 @@ var saibaMais = document.querySelectorAll("#hero .block-buttons a");
 
   },false);
 
+  paraQueServeSection.addEventListener('sal:in', function(event) {
+    if(event.target === paraQueServeSection){
+         console.log('entering - Para Que Serve - section');
+          dataLayer.push({
+          'event': 'website-change-page',
+          'vpvname': 'entering-ParaQueServe-section'
+          }); 
+    }
+  });
+
+
+  // Tipos de Dor
   tiposDor[0].addEventListener('click', function(event){
     
     dataLayer.push({
@@ -84,6 +126,18 @@ var saibaMais = document.querySelectorAll("#hero .block-buttons a");
   },false);
 
 
+  tiposDorSection.addEventListener('sal:in', function(event) {
+    if(event.target === tiposDorSection){
+         console.log('entering - Tipos Dor - section');
+           dataLayer.push({
+          'event': 'website-change-page',
+          'vpvname': 'entering-TiposDor-section'
+          }); 
+    }
+  });
+
+
+  // Como Tomar
   comoTomar[0].addEventListener('click', function(event){
     
     dataLayer.push({
@@ -100,15 +154,21 @@ var saibaMais = document.querySelectorAll("#hero .block-buttons a");
   },false);
 
 
-  if (window.location.pathname === '/') { 
-    saibaMais[0].addEventListener('click', function(event){
-      
-      dataLayer.push({
-      'event': 'website-change-page',
-      'vpvname': 'hero-para-que-serve'
-      });  
+  comoTomarSection.addEventListener('sal:in', function(event) {
+    if(event.target === comoTomarSection){
+         console.log('entering - Como Tomar - section');
+           dataLayer.push({
+          'event': 'website-change-page',
+          'vpvname': 'entering-ComoTomar-section'
+          }); 
+    }
+  });
 
-    },false);
-  }
+
+
+
+
+
+
 
 };

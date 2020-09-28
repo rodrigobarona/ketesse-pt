@@ -8,7 +8,7 @@ export default class SectionContent extends React.Component {
     render() {
         let section = _.get(this.props, 'section');
         return (
-            <section id={_.get(section, 'section_id')} name={_.get(section, 'section_id')} className={'block text-block bg-' + _.get(section, 'background') + ' outer'}>
+            <section id={_.get(section, 'section_id')} data-sal="" name={_.get(section, 'section_id')} className={'block text-block bg-' + _.get(section, 'background') + ' outer'}>
               <div className="inner">
                 <div className="grid">
                   {_.get(section, 'image') && 
