@@ -85,7 +85,7 @@ export default class Footer extends React.Component {
                     <ActionLink key={action_idx} {...this.props} action={action} />
                   ))}
                   &nbsp;-&nbsp;
-                  <Link id="ot-sdk-btn" href="" >Cookie Settings</Link>
+                  <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
                 </div>
               </div>
             </footer>
