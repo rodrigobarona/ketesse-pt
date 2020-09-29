@@ -70,7 +70,7 @@ var comoTomarSection = document.getElementById('como-tomar');
       });  
 
     },false);
-  }
+
 
   heroSection.addEventListener('sal:in', function(event) {
     if(event.target === heroSection){
@@ -82,6 +82,7 @@ var comoTomarSection = document.getElementById('como-tomar');
     }
   });
 
+  }
 
   // Para Que Serve
   paraQueServe[0].addEventListener('click', function(event){
@@ -106,6 +107,7 @@ var comoTomarSection = document.getElementById('como-tomar');
           'vpvname': 'entering-ParaQueServe-section'
           }); 
     }
+
   });
 
 
@@ -134,6 +136,7 @@ var comoTomarSection = document.getElementById('como-tomar');
           'vpvname': 'entering-TiposDor-section'
           }); 
     }
+
   });
 
 
@@ -163,12 +166,5 @@ var comoTomarSection = document.getElementById('como-tomar');
           }); 
     }
   });
-
-
-
-
-
-
-
 
 };
