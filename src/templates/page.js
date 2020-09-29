@@ -27,7 +27,6 @@ export default class Page extends React.Component {
                   <div className="post-content">
                     {htmlToReact(_.get(this.props, 'pageContext.html'))}
                   </div>
-                  <div id="ot-sdk-cookie-policy"></div>
                 </article>
               </div>
             </div>
