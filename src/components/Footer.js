@@ -40,6 +40,7 @@ export default class Footer extends React.Component {
                               <ActionLink {...this.props} action={action} />
                             </li>
                             ))}
+                             <li><button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button></li>
                           </ul>
                         </div>
                         }
@@ -84,8 +85,6 @@ export default class Footer extends React.Component {
                   {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links'), (action, action_idx) => (
                     <ActionLink key={action_idx} {...this.props} action={action} />
                   ))}
-                  &nbsp;-&nbsp;
-                  <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
                 </div>
               </div>
             </footer>
