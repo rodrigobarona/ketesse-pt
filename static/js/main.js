@@ -54,11 +54,13 @@ var tiposDor = document.getElementsByClassName('tipos-dor');
 var comoTomar = document.getElementsByClassName('como-tomar');
 var saibaMais = document.querySelectorAll("#hero .block-buttons a");
 
+ if (window.location.pathname === '/') { 
 // Para track do Scroll
 var heroSection = document.getElementById('hero');
 var paraQueServeSection = document.getElementById('para-que-serve-ketesse');
 var tiposDorSection = document.getElementById('tipos-dor');
 var comoTomarSection = document.getElementById('como-tomar');
+}
 
   // Hero
   if (window.location.pathname === '/') { 
@@ -98,7 +100,7 @@ var comoTomarSection = document.getElementById('como-tomar');
     }
 
   },false);
-
+ if (window.location.pathname === '/') { 
   paraQueServeSection.addEventListener('sal:in', function(event) {
     if(event.target === paraQueServeSection){
          console.log('entering - Para Que Serve - section');
@@ -109,7 +111,7 @@ var comoTomarSection = document.getElementById('como-tomar');
     }
 
   });
-
+}
 
   // Tipos de Dor
   tiposDor[0].addEventListener('click', function(event){
@@ -127,7 +129,7 @@ var comoTomarSection = document.getElementById('como-tomar');
 
   },false);
 
-
+ if (window.location.pathname === '/') { 
   tiposDorSection.addEventListener('sal:in', function(event) {
     if(event.target === tiposDorSection){
          console.log('entering - Tipos Dor - section');
@@ -138,7 +140,7 @@ var comoTomarSection = document.getElementById('como-tomar');
     }
 
   });
-
+}
 
   // Como Tomar
   comoTomar[0].addEventListener('click', function(event){
@@ -156,7 +158,7 @@ var comoTomarSection = document.getElementById('como-tomar');
 
   },false);
 
-
+ if (window.location.pathname === '/') { 
   comoTomarSection.addEventListener('sal:in', function(event) {
     if(event.target === comoTomarSection){
          console.log('entering - Como Tomar - section');
@@ -166,5 +168,6 @@ var comoTomarSection = document.getElementById('como-tomar');
           }); 
     }
   });
+}
 
 };
