@@ -13,7 +13,7 @@
     "@stackbit/gatsby-plugin-menus": "0.0.4",
     "classnames": "^2.2.6",
     "fs-extra": "^7.0.1",
-    "gatsby": "^2.24.3",
+    "gatsby": "^2.24.84",
     "gatsby-plugin-anchor-links": "^1.1.1",
     "gatsby-plugin-google-tagmanager": "^2.3.11",
     "gatsby-plugin-html-attributes": "^1.0.5",
