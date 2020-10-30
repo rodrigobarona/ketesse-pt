@@ -58,43 +58,9 @@ var saibaMais = document.querySelectorAll("#hero .block-buttons a");
 // Para track do Scroll
 var heroSection = document.getElementById('hero');
 var paraQueServeSection = document.getElementById('para-que-serve-ketesse');
-const tiposDorSection = document.getElementById('tipos-dor');
+var tiposDorSection = document.getElementById('tipos-dor');
 var comoTomarSection = document.getElementById('como-tomar');
 
-//Intersection Observer API example for scrolling events
-const io_options = {
-  root: null,
-  rootMargin: '0px',
-  //threshold: [...Array(100).keys()].map(x => x / 100)
-  threshold: 0
-};
-let io_observer;
-
-
-function io_callback (entries) {
-  const ratio = entries[0].intersectionRatio;
-  //const boundingRect = entries[0].boundingClientRect;
-  //const intersectionRect = entries[0].intersectionRect;
-
-  Array.prototype.forEach.call(entries, function(entry) {
-    if (entries[0].isIntersecting) {
-      //output.innerText = 'outside';
-      console.log("Inside viewport: " + entry.target.id);
-    } else {
-      //output.innerText = 'inside';
-      console.log("Outside viewport: " + entry.target.id);
-    }
-  })
-}
-
-io_observer = new IntersectionObserver(io_callback, io_options);
-
-window.addEventListener('load', function(e) {
-  var targets = document.querySelectorAll('.block');
-  Array.prototype.forEach.call(targets, function(target) {
-    io_observer.observe(target);
-  });
-});
 
 }
 
