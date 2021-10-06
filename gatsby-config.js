@@ -5,6 +5,7 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         `gatsby-plugin-sitemap`,
+        `gatsby-plugin-flow`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
