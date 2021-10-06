@@ -6,12 +6,14 @@ export default function HTML(props) {
     <html {...props.htmlAttributes}>
       <head>
    
-      <script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="b49e0ba8-438a-4fee-92ac-8a58d0305a93"></script>
-       <script type="text/javascript">
-        function OptanonWrapper() {
-           
-        }
+        <!-- OneTrust Cookies Consent Notice start for ketesse.pt -->
+        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/e2367585-511b-48fd-8879-a9bb06c4d660/OtAutoBlock.js" ></script>
+        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="e2367585-511b-48fd-8879-a9bb06c4d660" ></script>
+        <script type="text/javascript">
+        function OptanonWrapper() { }
         </script>
+        <!-- OneTrust Cookies Consent Notice end for ketesse.pt -->
+
    
         {props.headComponents}
       </head>
